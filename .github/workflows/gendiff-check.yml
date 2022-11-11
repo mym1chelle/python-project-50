@@ -10,7 +10,7 @@ jobs:
     strategy:
       matrix:
         # we want to test our package on several versions of Python
-        python-version: [3.10, 3.11]
+        python-version: [3.10]
     steps:
       - uses: actions/checkout@v2
       - name: Set up Python ${{ matrix.python-version }}
@@ -28,9 +28,8 @@ jobs:
           make lint
       - name: Test & publish code coverage
         uses: paambaati/codeclimate-action@v2.7.4
-        if: github.ref_name == 'main'
         env:
-          CC_TEST_REPORTER_ID: ${{ secrets.CC_TEST_REPORTER_ID }}
+          CC_TEST_REPORTER_ID: 8a7c6a8bd04a556eb39bd8a5fc4266f57394b49b4163706bd19b534443a4c8c9
         with:
           coverageCommand: make test-gendiff
           debug: true
