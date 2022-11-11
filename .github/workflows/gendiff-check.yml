@@ -29,7 +29,7 @@ jobs:
       - name: Test & publish code coverage
         uses: paambaati/codeclimate-action@v3.2.0
         env:
-          CC_TEST_REPORTER_ID: 8a7c6a8bd04a556eb39bd8a5fc4266f57394b49b4163706bd19b534443a4c8c9
+          CC_TEST_REPORTER_ID: 3c120e714407c88c1dad13970612125ae475bb38763e9300397bb527d8be7494
         with:
-          coverageCommand: make test-gendiff
+          coverageCommand: make test-cov-gendiff
           debug: true
