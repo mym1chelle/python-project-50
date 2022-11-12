@@ -11,4 +11,5 @@
 <a href="https://codeclimate.com/github/mym1chelle/python-project-50/test_coverage"><img src="https://api.codeclimate.com/v1/badges/b474dc64cfea8f6ecdd8/test_coverage" /></a>
 
 ### ASCIINEMA REC:
-<a href='https://asciinema.org/a/5z7pxcFQF2nNJDxwBzLTGYn2H'>Step three: demonstration of the package and the ability to import the function</a>
+<a href='https://asciinema.org/a/5z7pxcFQF2nNJDxwBzLTGYn2H'>Step three: demonstration of the package and the ability to import the function</a>  
+<a href='https://asciinema.org/a/KVJUoSVA2AIBM56cgyi4vCj3P'>Step five: demonstration of work with YAML files</a>
