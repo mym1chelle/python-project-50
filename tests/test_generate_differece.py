@@ -1,8 +1,4 @@
-import sys
-
-sys.path.append('gendiff')
-
-from gendiff_func.generate_differece import generate_diff
+from gendiff.gendiff_func.generate_differece import generate_diff
 
 
 result_stylish = open('tests/fixtures/result_stylish.txt').read()
