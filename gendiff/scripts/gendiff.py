@@ -14,7 +14,7 @@ def info():
                         default='stylish',
                         type=str)
     args = parser.parse_args()
-    print(generate_diff(args.first_file, args.second_file))
+    print(generate_diff(args.first_file, args.second_file, args.format))
 
 
 def main():

@@ -1,7 +1,7 @@
 import json
 from yaml import safe_load
-from gendiff.engine_parser import get_diff, get_file_format, FORMATTERS
-
+from gendiff.gendiff_func.dict_parser import get_diff, get_file_format
+from gendiff.gendiff_func.dict_parser import FORMATTERS
 
 available_formats = {
     'json': json.load,

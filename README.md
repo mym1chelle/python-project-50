@@ -14,3 +14,4 @@
 <a href='https://asciinema.org/a/5z7pxcFQF2nNJDxwBzLTGYn2H'>Step three: demonstration of the package and the ability to import the function</a>  
 <a href='https://asciinema.org/a/KVJUoSVA2AIBM56cgyi4vCj3P'>Step five: demonstration of work with YAML files</a>  
 <a href='https://asciinema.org/a/kEKWldJdo2UUgnGtD6Uq8qadV'>Step six: find differences in two files and create a formatter to output their differences</a>  
+<a href='https://asciinema.org/a/8gjjzhtKq3OG5RRkmzRE1MQ7z'>Step seven: create a new output format for comparing two files</a>  
