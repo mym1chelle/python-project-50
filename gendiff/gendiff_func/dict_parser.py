@@ -1,6 +1,7 @@
 import os
 from gendiff.formatters.stylish_format import stylish
 from gendiff.formatters.plain_format import plain
+from gendiff.formatters.json_format import json_format
 
 
 def get_file_format(pathfile):
@@ -38,5 +39,6 @@ def get_diff(one_dict: dict, two_dict: dict):
 
 FORMATTERS = {
     'stylish': stylish,
-    'plain': plain
+    'plain': plain,
+    'json': json_format
 }

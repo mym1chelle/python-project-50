@@ -15,3 +15,5 @@
 <a href='https://asciinema.org/a/KVJUoSVA2AIBM56cgyi4vCj3P'>Step five: demonstration of work with YAML files</a>  
 <a href='https://asciinema.org/a/kEKWldJdo2UUgnGtD6Uq8qadV'>Step six: find differences in two files and create a formatter to output their differences</a>  
 <a href='https://asciinema.org/a/8gjjzhtKq3OG5RRkmzRE1MQ7z'>Step seven: create a new output format for comparing two files</a>  
+<a href='https://asciinema.org/a/8guq5UN4D4cmdsrewW3nN8Iny'>Step eight: output compare two files in JSON format</a>  
+
